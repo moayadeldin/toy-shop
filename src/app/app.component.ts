@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IGame } from './gamelist/game';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +7,5 @@ import { IGame } from './gamelist/game';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Toy Shop Project';
+  title='Toy Shop Project';
 }
