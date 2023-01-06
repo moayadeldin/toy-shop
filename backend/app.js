@@ -36,22 +36,6 @@ app.get('/games',function(req,res,next){
       })
 })
 
-app.get('/games/:id',function(req,res,next){
-
-  game.findOne({_id:req.params.id}.then(game=>{
-
-    if(game){
-      res.send(game);
-    }else{
-      res.send('No Game with this id');
-    }
-
-
-  }))
-
-
-});
-
 
 
 app.listen(3000,function() {
