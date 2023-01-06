@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { GamesService } from '../games.service';
 import { Router } from '@angular/router';
 
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -81,5 +82,16 @@ export class HomeComponent {
     localStorage.setItem('cart_total', JSON.stringify(this.total));
     this.router.navigate(['/payment']);
   }
+
+  searchText: string = '';
+
+  onSearchTextEntered(searchValue: string){
+
+    this.searchText=searchValue;
+    console.log(this.searchText);
+
+
+  }
+
 
 }
