@@ -11,6 +11,7 @@ import { PaymentComponent } from './payment/payment.component';
 import { NgxPayPalModule } from 'ngx-paypal';
 import { SuccessComponent } from './success/success.component';
 import { SearchComponent } from './search/search.component';
+import { FirstPageComponent } from './first-page/first-page.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { SearchComponent } from './search/search.component';
     PagenotfoundComponent,
     PaymentComponent,
     SuccessComponent,
-    SearchComponent
+    SearchComponent,
+    FirstPageComponent
   ],
   imports: [
     BrowserModule,

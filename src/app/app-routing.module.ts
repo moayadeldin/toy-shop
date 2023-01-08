@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { FirstPageComponent } from './first-page/first-page.component';
 import { HomeComponent } from './home/home.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { PaymentComponent } from './payment/payment.component';
@@ -10,7 +11,7 @@ const routes: Routes = [
   {
 
     path:'',
-    component:HomeComponent
+    component:FirstPageComponent
 
   },
 
@@ -31,6 +32,7 @@ const routes: Routes = [
     component:SuccessComponent
 
   },
+  {path:'welcome',component:FirstPageComponent},
   {path: '**', component:PagenotfoundComponent}
 
 
