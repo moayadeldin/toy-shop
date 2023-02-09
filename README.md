@@ -27,7 +27,9 @@ As shown in project file requirements on course page, the following features wer
 1. Ability to add or remove from the shopping cart, also viewing contents of the cart.
 2. Ability to view list of toys in the shop, filter and search for toys based on their name or
 brand.
+
 Moreover, the following bonus features were implemented:
+
 3. Simulating Payment Process
 4. Page not found implemented for irrelevant URLs written, with option to redirect to
 home page.
