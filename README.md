@@ -1,17 +1,47 @@
 <<<<<<< HEAD
-# ToyShop
+# ToyShop - CSE428 Data Engineering Course Project.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
-## Development server
+## Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This project is an implementation of a Toy Shop website featuring the basic requirements as
+shown in CSE428 Data Engineering course project description. It was built mainly based on the
+MEAN-stack package using MongoDB, ExpressJS, Angular framework and Node.js.
 
-## Code scaffolding
+Regarding the backend part, MongoDB was used to store the data obtained from items.sql file
+in the following repo https://github.com/ZyadShokry/ToyShop with NodeJS used as a serverside tool providing the communication between the Database and Frontend part.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## How to run
 
-## Build
+1. First clone the repo on your local machine. `git clone --single-branch --branch master https://github.com/moayadeldin/toy-shop`
+
+2. run the command `node app.js`
+
+3. In case Node.js is installed on device and there is no any missing packages (you can install any missing by using the command `npm install package-name`) then run `ng serve`.
+
+4. Project can be viewed within `localhost:4200` featuring welcome page.
+
+## Features
+As shown in project file requirements on course page, the following features were implemented:
+I. Ability to add or remove from the shopping cart, also viewing contents of the cart.
+II. Ability to view list of toys in the shop, filter and search for toys based on their name or
+brand.
+Moreover, the following bonus features were implemented:
+III. Simulating Payment Process
+IV. Page not found implemented for irrelevant URLs written, with option to redirect to
+home page.
+V. Simple Welcome Page.
+VI. Some CSS features. (Zooming in Pictures, Buttons animations)
+
+## End Points
+1. “localhost:4200” or “localhost:4200/welcome” redirects to welcome page.
+2. “localhost:4200/home” redirects to home page where products are shown.
+3. “localhost:4200/payment” redirects to payment page.
+4. “localhost:4200/x” where x isn’t implemented to be a page path gives "Page Not Found".
+
+A 6-minute video showing how the project works is available through this [link](https://drive.google.com/file/d/1pobFrL34W5tJrMaLkntYYEpfuzGsGPFs/view?usp=sharing).
+
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
