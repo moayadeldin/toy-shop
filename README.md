@@ -41,22 +41,3 @@ VI. Some CSS features. (Zooming in Pictures, Buttons animations)
 4. “localhost:4200/x” where x isn’t implemented to be a page path gives "Page Not Found".
 
 A 6-minute video showing how the project works is available through this [link](https://drive.google.com/file/d/1pobFrL34W5tJrMaLkntYYEpfuzGsGPFs/view?usp=sharing).
-
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-=======
-# toy-shop
-CSE 428 - Data Engineering course project as a simple web application for toy shop
->>>>>>> a5809210f866616fe5d61ab26026cd58453cd5d9
