@@ -24,20 +24,20 @@ in the following repo https://github.com/ZyadShokry/ToyShop with NodeJS used as 
 
 ## Features
 As shown in project file requirements on course page, the following features were implemented:
-I. Ability to add or remove from the shopping cart, also viewing contents of the cart.
-II. Ability to view list of toys in the shop, filter and search for toys based on their name or
+1. Ability to add or remove from the shopping cart, also viewing contents of the cart.
+2. Ability to view list of toys in the shop, filter and search for toys based on their name or
 brand.
 Moreover, the following bonus features were implemented:
-III. Simulating Payment Process
-IV. Page not found implemented for irrelevant URLs written, with option to redirect to
+3. Simulating Payment Process
+4. Page not found implemented for irrelevant URLs written, with option to redirect to
 home page.
-V. Simple Welcome Page.
-VI. Some CSS features. (Zooming in Pictures, Buttons animations)
+5. Simple Welcome Page.
+6. Some CSS features. (Zooming in Pictures, Buttons animations)
 
 ## End Points
-1. “localhost:4200” or “localhost:4200/welcome” redirects to welcome page.
-2. “localhost:4200/home” redirects to home page where products are shown.
-3. “localhost:4200/payment” redirects to payment page.
-4. “localhost:4200/x” where x isn’t implemented to be a page path gives "Page Not Found".
+1. `localhost:4200` or `localhost:4200/welcome` redirects to welcome page.
+2. `localhost:4200/home` redirects to home page where products are shown.
+3. `localhost:4200/payment` redirects to payment page.
+4. `localhost:4200/x` where x isn’t implemented to be a page path gives "Page Not Found".
 
 A 6-minute video showing how the project works is available through this [link](https://drive.google.com/file/d/1pobFrL34W5tJrMaLkntYYEpfuzGsGPFs/view?usp=sharing).
